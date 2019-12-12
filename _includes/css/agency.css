@@ -268,7 +268,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/nature-grass-horizon-cloud-plant-sky-7605-pxhere.com.jpg');
+    background-image: url('{{ site.baseurl }}/img/HomeImg.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
