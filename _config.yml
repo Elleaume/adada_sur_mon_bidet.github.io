@@ -17,8 +17,7 @@ title: Terrorism perceived though western news
 
 description:  # this means to ignore newlines until "baseurl:"
   "EPFL 2019 Projet ADA, 
-  Stuber Annina, Luongo Francesca, Schneuwly Christelle, Elleaume Camille, 
-  Photo credit: [_0_h_m_](https://www.instagram.com/_0_h_m_/?hl=fr)"
+  Stuber Annina, Luongo Francesca, Schneuwly Christelle, Elleaume Camille"
 baseurl: "https://elleaume.github.io/adada_sur_mon_bidet.github.io/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
