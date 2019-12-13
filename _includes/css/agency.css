@@ -269,7 +269,6 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/HomeImg.jpg');
-    background-image: caption("Photo credit: [[_0_h_m_](https://www.instagram.com/_0_h_m_/?hl=fr)");
     background-position: center center;b
     background-repeat: none;
     -webkit-background-size: cover;
