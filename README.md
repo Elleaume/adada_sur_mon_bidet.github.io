@@ -1,7 +1,4 @@
 Terrorism perceived though western news
-
-Link to DataStory: https://elleaume.github.io/adada_sur_mon_bidet.github.io/
-
 ================
 Abstract
 
