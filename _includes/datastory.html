@@ -6,19 +6,33 @@
                 <h2 class="section-heading">Datastory</h2>
 
                   <div class= "text-corps">
-                    We are focusing on some shit
+                    We are focusing on something
                   </div>
+
+
 
                   <h4 class = "section-subheading"> Have the terrorist attack rates, motives, locations, changed over the past 50 years? <br/> <br/> </h4>
 
                     <h5>Evolution of number of terrorism attacks in the last 50 years</h5>
                     {% include CountAttacks.html %}
 
+                    <div class="text-corps">
+                      DESCRIPTION
+                    </div>
+
                     <h4 class = "section-subheading"> <br/> Casualtie per year<br/>  </h4>
                     {% include CasualtiesPerYear.html %}
+
+                    <div class="text-corps">
+                      DESCRIPTION
+                    </div>
                     
                     <h4 class = "section-subheading"> <br/> Average Casualtie per attack per year<br/>  </h4>
                     {% include AvCasualtiesPerYear.html %}
+
+                    <div class="text-corps">
+                      DESCRIPTION
+                    </div>
 
                     <h4 class = "section-subheading"> <br/> Targetts <br/>  </h4>
                     {% include SubTargets.html %}
@@ -27,22 +41,40 @@
                       DESCRIPTION
                     </div>
 
+
+
+
                   <h4 class = "section-subheading"> Where do terrorist attacks occur? <br/> <br/> </h4>
 
                   <h4 class = "section-subheading"> <br/> Distribition of terrorist attacks in the world <br/>  </h4>
                     {% include TerrorismPlot.html %}
+
+                    <div class="text-corps">
+                      DESCRIPTION
+                    </div>
+
+
 
 
                   <h4 class = "section-subheading"> Who commit terrorist attacks and by what motive? <br/> <br/> </h4>
 
                     <h4 class = "section-subheading"> <br/> Most active groups of terrorists in the world <br/>  </h4>
                     {% include MostActiveGroups.html %}
+                    <div class="text-corps">
+                      DESCRIPTION
+                    </div>
 
                     <h4 class = "section-subheading"> <br/> Most targetted types by active groups of terrorists<br/>  </h4>
                     {% include MostActiveTarget.html %}
+                    <div class="text-corps">
+                      DESCRIPTION
+                    </div>
 
                     <h4 class = "section-subheading"> <br/> Favorite weapons of active groups of terrorists in the world <br/>  </h4>
                     {% include MostActiveGroupsWeapons.html %}
+                    <div class="text-corps">
+                      DESCRIPTION
+                    </div>
 
                     <h4 class = "section-subheading"> <br/> Repartion of attacks per contienents of the most active groups of terrorists<br/>  </h4>
                     {% include 100mostactive_continent.html %}
@@ -57,32 +89,41 @@
                       <img src="img/africa_groups.png" width="400" /> 
                     </p>
 
-                    <h4 class = "section-subheading"> <br/> Africa <br/>  </h4>
-                    <img src="img/africa_groups.png" alt="">
-
-                    <h4 class = "section-subheading"> <br/> Europe <br/>  </h4>
-                    <img src="img/europe_groups.png" alt="">
-
-                    <h4 class = "section-subheading"> <br/> Asia <br/>  </h4>
-                    <img src="img/asia_groups.png" alt="">
-
-                    <h4 class = "section-subheading"> <br/> North America <br/>  </h4>
-                    <img src="img/northamerica_groups.png" alt="">
-
-                    <h4 class = "section-subheading"> <br/> South America <br/>  </h4>
-                    <img src="img/southamerica_groups.png" alt="">
-
                     <div class="text-corps">
                       DESCRIPTION
                     </div>
+
+
+
+
+
 
                   <h4 class = "section-subheading"> How are is global terrorism depicted in some selected popular western newpapers? <br/> <br/> </h4>
 
                     <h4 class = "section-subheading"> <br/> Themes covared with terrorism <br/>  </h4>
                     <img src="img/article_themes_wordcould.png" alt="">
+                    <div class="text-corps">
+                      DESCRIPTION
+                    </div>
+
+                    h4 class = "section-subheading"> <br/> Themes per continents <br/>  </h4>
+                    {% include RadarChart.html %}
+                    <div class="text-corps">
+                      DESCRIPTION
+                    </div>
 
                     <h4 class = "section-subheading"> <br/> Article Covarage <br/>  </h4>
                     {% include ArticleCoveragePlot.html %}
+                    <div class="text-corps">
+                      DESCRIPTION
+                    </div>
+
+                    <h4 class = "section-subheading"> <br/> Article length <br/>  </h4>
+                    {% include WordCountPerArticlePlot.html %}
+                    <div class="text-corps">
+                      DESCRIPTION
+                    </div>
+                    
             </div>
         </div>
     </div>
