@@ -11,6 +11,7 @@
   font-weight: normal;
   font-style: normal;
 }
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -2083,4 +2084,11 @@
 }
 .fa-percent:before {
   content: "\f295";
+}
+.box{
+    float:left;
+    margin-right:20px;
+}
+.clear{
+    clear:both;
 }
