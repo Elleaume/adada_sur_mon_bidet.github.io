@@ -18,20 +18,13 @@
                     </div>
                     <h4 class = "section-subheading">Sources</h4>
                     <div class= "text-corps">
-                    Global Terrorism Database
+                    Global Terrorism Database (GTD) is a collection of facts about terrorist attacks from 1970-2017. The facts cover location, date, motive, and who claimed the attack and a very large variety of other very specific metrics. GTD was built by a multidisciplinary team of University of Maryland faculty members and contains a large variety of structured variables characterizing each attack’s location, tactics and weapons, targets, perpetrators, casualties and consequences and general information such as definitional critera and links between coordinated attacks. Event from 1993 were scraped from Wikipedia, as they were missing in the initial dataset.</div>
+                     <div class= "text-corps">
+                    All the news is a collection of news coverage from CNN, New York Times, Breitbart, Fox news, the Guardian.
+                    New York Times articles was used to complete the dataset of articles collected from “all the news” as this was a rather narrow dataset. 
+                    For the article selection concerning terrorism, a score was built by scanning the general bodies for an overlap with the dictionary of “terrorism” in spacy. They were then also scored on various other topics, and if terrorism was among the top 3 scores, the article was retained. Articles with general low scores were also removed. 
 
-                    This database is a collection of facts about terrorist attacks from 1970-2017. The facts cover location, date, motive, and who claimed the attack and a very large variety of other very specific metrics. <a href="https://www.kaggle.com/START-UMD/gtd"></a>.
 
-                    All the news
-
-                    This database is a collection of news coverage from CNN, New York Times, Breitbart, Fox news, the Guardian, <a href="https://www.kaggle.com/snapcrack/all-the-news#articles3.csv"></a>
-
-                    New York Times articles
-
-                    As the amount of articles from all the news resulted in a rather narrow dataset, we decided to merge the articles found so far with another dataset. We had to narrow down the diversity of publishers and chose to start using only New York Times articles. 
-
-                    GTD was built by a multidisciplinary team of University of Maryland faculty members and contains a large variety of structured variables characterizing each attack’s location, tactics and weapons, targets, perpetrators, casualties and consequences and general information such as definitional critera and links between coordinated attacks.
-                    
                     </div>
                 </div>
             </div>
