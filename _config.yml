@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Terrorism perceived though western news
+title: Terrorism and how it is perceived in American News
 
 description:  # this means to ignore newlines until "baseurl:"
   "EPFL 2019 Projet ADA, 
