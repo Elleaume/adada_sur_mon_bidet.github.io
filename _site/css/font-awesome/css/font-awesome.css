@@ -2085,10 +2085,4 @@
 .fa-percent:before {
   content: "\f295";
 }
-.box{
-    float:left;
-    margin-right:20px;
-}
-.clear{
-    clear:both;
-}
+.box { display:inline-block; }
