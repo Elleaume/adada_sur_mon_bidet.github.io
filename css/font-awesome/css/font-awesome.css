@@ -2084,3 +2084,16 @@
 .fa-percent:before {
   content: "\f295";
 }
+.container {
+  width: 200px; 
+  display:inline-block;
+}
+
+iframe {
+  height: 100px; 
+  width: 200px;
+}
+
+.ad {
+  text-align:center
+}
